@@ -4,7 +4,7 @@ Self-Driving Car Engineer Nanodegree Program
 ---
 ## Reflection 
 
-###Student describes the effect of the P, I, D component of the PID algorithm in their implementation. Is it what you expected?
+### Student describes the effect of the P, I, D component of the PID algorithm in their implementation. Is it what you expected?
 
 The Proportional component (P) is the most relevant part of this project. It is the main reponsible to steer the car to the center of the line.
 
@@ -12,7 +12,7 @@ The Differential component tents to steer in circles and for that reason it was 
 
 The Integral component does the fine tunning to rise to the optimal position.
 
-###Final hyperparameters (P, I, D coefficients).
+### Final hyperparameters (P, I, D coefficients).
 
 The final parameters were choosen by hand, testing the behavior of the car and choosing those ones that give a reasonable results. 
 A secondary PID controller is implemented to control the throttle. Inside this controler is included a Fuzzy controler to avoid overspeed or driving back behavior.
